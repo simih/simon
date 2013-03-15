@@ -22,6 +22,11 @@ end
 gem 'therubyracer'
 gem 'execjs'
 gem 'jquery-rails'
+gem 'rspec', "~> 2.0"
+group :test, :development do
+  gem "rspec-rails", "~> 2.0"
+end
+gem 'spork', '~> 1.0rc'
 
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
